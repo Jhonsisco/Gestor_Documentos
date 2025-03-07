@@ -1,0 +1,148 @@
+<div class="gestor-container">
+  <div class="header">
+    <div class="title-section">
+      <h1>Gestor de Documentos</h1>
+      <div class="document-input-section">
+        <div class="input-group">
+          <label>DOCUMENTO A ENTREGAR</label>
+          <input type="text" placeholder="Número de Documento a Entregar" class="document-input">
+        </div>
+        <button class="btn-primary">MARCAR COMO ENTREGADO</button>
+      </div>
+    </div>
+
+    <div class="controls-row">
+      <div class="left-controls">
+        <div class="date-group">
+          <label>FECHA</label>
+          <div class="date-input-container">
+            <input type="text" value="06/03/2025" class="date-input">
+            <button class="date-button">
+              <i class="calendar-icon"></i>
+            </button>
+          </div>
+        </div>
+        
+        <div class="prefix-group">
+          <label>PREFIJO</label>
+          <input type="text" placeholder="Prefijo" class="prefix-input">
+        </div>
+      </div>
+
+      <div class="right-controls">
+        <button class="btn-secondary">IMPRIMIR</button>
+        <button class="btn-secondary">EXPORTAR EXCEL</button>
+        <button class="btn-secondary">CIERRE DE CAJA</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>
+            N° DOCUMENTO
+            <i class="filter-icon"></i>
+          </th>
+          <th>TIPO</th>
+          <th>CLIENTE</th>
+          <th>VALOR</th>
+          <th>
+            METODO DE PAGO
+            <i class="filter-icon"></i>
+          </th>
+          <th>ESTADO</th>
+          <th>ACCIONES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SETP990000003</td>
+          <td>Factura</td>
+          <td>CONSUMIDOR FINAL</td>
+          <td>$500.00</td>
+          <td>cash</td>
+          <td><span class="status-badge">SIN ENTREGAR</span></td>
+          <td class="actions">
+            <button class="action-btn"><i class="check-icon"></i></button>
+            <button class="action-btn"><i class="edit-icon"></i></button>
+            <button class="action-btn"><i class="print-icon"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>FE2</td>
+          <td>Factura</td>
+          <td>ANDRES MONCAYO</td>
+          <td>$200.00</td>
+          <td>cash</td>
+          <td><span class="status-badge">SIN ENTREGAR</span></td>
+          <td class="actions">
+            <button class="action-btn"><i class="check-icon"></i></button>
+            <button class="action-btn"><i class="edit-icon"></i></button>
+            <button class="action-btn"><i class="print-icon"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>FE3</td>
+          <td>Factura</td>
+          <td>LUIS PEREZ</td>
+          <td>$360,000.00</td>
+          <td>1</td>
+          <td><span class="status-badge">SIN ENTREGAR</span></td>
+          <td class="actions">
+            <button class="action-btn"><i class="check-icon"></i></button>
+            <button class="action-btn"><i class="edit-icon"></i></button>
+            <button class="action-btn"><i class="print-icon"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>REM0003</td>
+          <td>Factura</td>
+          <td>NELCY LARA</td>
+          <td>$115,000.00</td>
+          <td>cash</td>
+          <td><span class="status-badge">SIN ENTREGAR</span></td>
+          <td class="actions">
+            <button class="action-btn"><i class="check-icon"></i></button>
+            <button class="action-btn"><i class="edit-icon"></i></button>
+            <button class="action-btn"><i class="print-icon"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>REM0004</td>
+          <td>Factura</td>
+          <td>CONSUMIDOR FINAL</td>
+          <td>$18,000.00</td>
+          <td>1</td>
+          <td><span class="status-badge">SIN ENTREGAR</span></td>
+          <td class="actions">
+            <button class="action-btn"><i class="check-icon"></i></button>
+            <button class="action-btn"><i class="edit-icon"></i></button>
+            <button class="action-btn"><i class="print-icon"></i></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="pagination">
+      <span class="page-info">1 - 5 de 8406</span>
+      <div class="page-controls">
+        <button class="page-btn">«</button>
+        <button class="page-btn">‹</button>
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn">4</button>
+        <button class="page-btn">5</button>
+        <button class="page-btn">›</button>
+        <button class="page-btn">»</button>
+        <div class="page-size">
+          <select>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
